@@ -1,0 +1,1584 @@
+Einstein field equations
+47 languages
+Article
+Talk
+Read
+Edit
+View history
+Tools
+From Wikipedia, the free encyclopedia
+"Einstein equation" redirects here. For the equation 
+𝐸
+=
+𝑚
+𝑐
+2
+, see Mass–energy equivalence.
+General relativity
+
+𝐺
+𝜇
+𝜈
++
+Λ
+𝑔
+𝜇
+𝜈
+=
+𝜅
+𝑇
+𝜇
+𝜈
+
+
+Introduction
+HistoryTimelineTests
+Mathematical formulation
+
+
+show
+Fundamental concepts
+
+
+show
+Phenomena
+
+
+hide
+EquationsFormalisms
+Equations
+
+Linearized gravityEinstein field equationsFriedmannGeodesicsMathisson–Papapetrou–DixonHamilton–Jacobi–Einstein
+
+Formalisms
+
+ADMBSSNPost-Newtonian
+
+Advanced theory
+
+Kaluza–Klein theoryQuantum gravity
+
+
+show
+Solutions
+
+
+show
+Scientists
+
+
+ Physics portal Category
+
+vte
+
+In the general theory of relativity, the Einstein field equations (EFE; also known as Einstein's equations) relate the geometry of spacetime to the distribution of matter within it.[1]
+
+The equations were published by Albert Einstein in 1915 in the form of a tensor equation[2] which related the local spacetime curvature (expressed by the Einstein tensor) with the local energy, momentum and stress within that spacetime (expressed by the stress–energy tensor).[3]
+
+Analogously to the way that electromagnetic fields are related to the distribution of charges and currents via Maxwell's equations, the EFE relate the spacetime geometry to the distribution of mass–energy, momentum and stress, that is, they determine the metric tensor of spacetime for a given arrangement of stress–energy–momentum in the spacetime. The relationship between the metric tensor and the Einstein tensor allows the EFE to be written as a set of nonlinear partial differential equations when used in this way. The solutions of the EFE are the components of the metric tensor. The inertial trajectories of particles and radiation (geodesics) in the resulting geometry are then calculated using the geodesic equation.
+
+As well as implying local energy–momentum conservation, the EFE reduce to Newton's law of gravitation in the limit of a weak gravitational field and velocities that are much less than the speed of light.[4]
+
+Exact solutions for the EFE can only be found under simplifying assumptions such as symmetry. Special classes of exact solutions are most often studied since they model many gravitational phenomena, such as rotating black holes and the expanding universe. Further simplification is achieved in approximating the spacetime as having only small deviations from flat spacetime, leading to the linearized EFE. These equations are used to study phenomena such as gravitational waves.
+
+Mathematical form[edit]
+Part of a series on
+Spacetime
+
+
+Special relativityGeneral relativity
+
+
+show
+Spacetime concepts
+
+
+show
+General relativity
+
+
+show
+Classical gravity
+
+
+show
+Relevant mathematics
+
+
+ Physics portal Category
+
+vte
+
+The Einstein field equations (EFE) may be written in the form:[5][1]
+
+𝐺
+𝜇
+𝜈
++
+Λ
+𝑔
+𝜇
+𝜈
+=
+𝜅
+𝑇
+𝜇
+𝜈
+EFE on a wall in Leiden, Netherlands
+
+where 
+𝐺
+𝜇
+𝜈
+ is the Einstein tensor, 
+𝑔
+𝜇
+𝜈
+ is the metric tensor, 
+𝑇
+𝜇
+𝜈
+ is the stress–energy tensor, 
+Λ
+ is the cosmological constant and 
+𝜅
+ is the Einstein gravitational constant.
+
+The Einstein tensor is defined as
+
+𝐺
+𝜇
+𝜈
+=
+𝑅
+𝜇
+𝜈
+−
+1
+2
+𝑅
+𝑔
+𝜇
+𝜈
+,
+
+where 
+𝑅
+𝜇
+𝜈
+ is the Ricci curvature tensor, and 
+𝑅
+ is the scalar curvature. This is a symmetric second-degree tensor that depends on only the metric tensor and its first and second derivatives.
+
+The Einstein gravitational constant is defined as[6][7]
+
+𝜅
+=
+8
+𝜋
+𝐺
+𝑐
+4
+≈
+2.07665
+(
+5
+)
+×
+10
+−
+43
+N
+−
+1
+,
+ or 
+m/J
+,
+
+where G is the Newtonian constant of gravitation and c is the speed of light in vacuum.
+
+The EFE can thus also be written as
+
+𝑅
+𝜇
+𝜈
+−
+1
+2
+𝑅
+𝑔
+𝜇
+𝜈
++
+Λ
+𝑔
+𝜇
+𝜈
+=
+𝜅
+𝑇
+𝜇
+𝜈
+.
+
+In standard units, each term on the left has units of 1/length2.
+
+The expression on the left represents the curvature of spacetime as determined by the metric; the expression on the right represents the stress–energy–momentum content of spacetime. The EFE can then be interpreted as a set of equations dictating how stress–energy–momentum determines the curvature of spacetime.
+
+These equations, together with the geodesic equation,[8] which dictates how freely falling matter moves through spacetime, form the core of the mathematical formulation of general relativity.
+
+The EFE is a tensor equation relating a set of symmetric 4 × 4 tensors. Each tensor has 10 independent components. The four Bianchi identities reduce the number of independent equations from 10 to 6, leaving the metric with four gauge-fixing degrees of freedom, which correspond to the freedom to choose a coordinate system.
+
+Although the Einstein field equations were initially formulated in the context of a four-dimensional theory, some theorists have explored their consequences in n dimensions.[9] The equations in contexts outside of general relativity are still referred to as the Einstein field equations. The vacuum field equations (obtained when Tμν is everywhere zero) define Einstein manifolds.
+
+The equations are more complex than they appear. Given a specified distribution of matter and energy in the form of a stress–energy tensor, the EFE are understood to be equations for the metric tensor 
+𝑔
+𝜇
+𝜈
+, since both the Ricci tensor and scalar curvature depend on the metric in a complicated nonlinear manner. When fully written out, the EFE are a system of ten coupled, nonlinear, hyperbolic-elliptic partial differential equations.[10]
+
+Sign convention[edit]
+
+The above form of the EFE is the standard established by Misner, Thorne, and Wheeler (MTW).[11] The authors analyzed conventions that exist and classified these according to three signs ([S1] [S2] [S3]):
+
+𝑔
+𝜇
+𝜈
+	
+=
+[
+𝑆
+1
+]
+×
+diag
+⁡
+(
+−
+1
+,
++
+1
+,
++
+1
+,
++
+1
+)
+
+
+𝑅
+𝜇
+𝛼
+𝛽
+𝛾
+	
+=
+[
+𝑆
+2
+]
+×
+(
+Γ
+𝛼
+𝛾
+,
+𝛽
+𝜇
+−
+Γ
+𝛼
+𝛽
+,
+𝛾
+𝜇
++
+Γ
+𝜎
+𝛽
+𝜇
+Γ
+𝛾
+𝛼
+𝜎
+−
+Γ
+𝜎
+𝛾
+𝜇
+Γ
+𝛽
+𝛼
+𝜎
+)
+
+
+𝐺
+𝜇
+𝜈
+	
+=
+[
+𝑆
+3
+]
+×
+𝜅
+𝑇
+𝜇
+𝜈
+
+The third sign above is related to the choice of convention for the Ricci tensor:
+
+𝑅
+𝜇
+𝜈
+=
+[
+𝑆
+2
+]
+×
+[
+𝑆
+3
+]
+×
+𝑅
+𝛼
+𝜇
+𝛼
+𝜈
+
+With these definitions Misner, Thorne, and Wheeler classify themselves as (+ + +), whereas Weinberg (1972)[12] is (+ − −), Peebles (1980)[13] and Efstathiou et al. (1990)[14] are (− + +), Rindler (1977),[citation needed] Atwater (1974),[citation needed] Collins Martin & Squires (1989)[15] and Peacock (1999)[16] are (− + −).
+
+Authors including Einstein have used a different sign in their definition for the Ricci tensor which results in the sign of the constant on the right side being negative:
+
+𝑅
+𝜇
+𝜈
+−
+1
+2
+𝑅
+𝑔
+𝜇
+𝜈
+−
+Λ
+𝑔
+𝜇
+𝜈
+=
+−
+𝜅
+𝑇
+𝜇
+𝜈
+.
+
+The sign of the cosmological term would change in both these versions if the (+ − − −) metric sign convention is used rather than the MTW (− + + +) metric sign convention adopted here.
+
+Equivalent formulations[edit]
+
+Taking the trace with respect to the metric of both sides of the EFE one gets
+
+𝑅
+−
+𝐷
+2
+𝑅
++
+𝐷
+Λ
+=
+𝜅
+𝑇
+,
+where D is the spacetime dimension. Solving for R and substituting this in the original EFE, one gets the following equivalent "trace-reversed" form:
+𝑅
+𝜇
+𝜈
+−
+2
+𝐷
+−
+2
+Λ
+𝑔
+𝜇
+𝜈
+=
+𝜅
+(
+𝑇
+𝜇
+𝜈
+−
+1
+𝐷
+−
+2
+𝑇
+𝑔
+𝜇
+𝜈
+)
+.
+
+In D = 4 dimensions this reduces to
+
+𝑅
+𝜇
+𝜈
+−
+Λ
+𝑔
+𝜇
+𝜈
+=
+𝜅
+(
+𝑇
+𝜇
+𝜈
+−
+1
+2
+𝑇
+𝑔
+𝜇
+𝜈
+)
+.
+
+Reversing the trace again would restore the original EFE. The trace-reversed form may be more convenient in some cases (for example, when one is interested in weak-field limit and can replace 
+𝑔
+𝜇
+𝜈
+ in the expression on the right with the Minkowski metric without significant loss of accuracy).
+
+The cosmological constant[edit]
+Main article: Cosmological constant
+
+In the Einstein field equations
+
+𝐺
+𝜇
+𝜈
++
+Λ
+𝑔
+𝜇
+𝜈
+=
+𝜅
+𝑇
+𝜇
+𝜈
+,
+the term containing the cosmological constant Λ was absent from the version in which he originally published them. Einstein then included the term with the cosmological constant to allow for a universe that is not expanding or contracting. This effort was unsuccessful because:
+
+any desired steady state solution described by this equation is unstable, and
+observations by Edwin Hubble showed that our universe is expanding.
+
+Einstein then abandoned Λ, remarking to George Gamow "that the introduction of the cosmological term was the biggest blunder of his life".[17]
+
+The inclusion of this term does not create inconsistencies. For many years the cosmological constant was almost universally assumed to be zero. More recent astronomical observations have shown an accelerating expansion of the universe, and to explain this a positive value of Λ is needed.[18][19] The cosmological constant is negligible at the scale of a galaxy or smaller.
+
+Einstein thought of the cosmological constant as an independent parameter, but its term in the field equation can also be moved algebraically to the other side and incorporated as part of the stress–energy tensor:
+
+𝑇
+𝜇
+𝜈
+(
+v
+a
+c
+)
+=
+−
+Λ
+𝜅
+𝑔
+𝜇
+𝜈
+.
+
+This tensor describes a vacuum state with an energy density ρvac and isotropic pressure pvac that are fixed constants and given by
+
+𝜌
+v
+a
+c
+=
+−
+𝑝
+v
+a
+c
+=
+Λ
+𝜅
+,
+where it is assumed that Λ has SI unit m−2 and κ is defined as above.
+
+The existence of a cosmological constant is thus equivalent to the existence of a vacuum energy and a pressure of opposite sign. This has led to the terms "cosmological constant" and "vacuum energy" being used interchangeably in general relativity.
+
+Features[edit]
+Conservation of energy and momentum[edit]
+
+General relativity is consistent with the local conservation of energy and momentum expressed as
+
+∇
+𝛽
+𝑇
+𝛼
+𝛽
+=
+𝑇
+𝛼
+𝛽
+;
+𝛽
+=
+0.
+
+Derivation of local energy–momentum conservation
+
+Contracting the differential Bianchi identity
+
+𝑅
+𝛼
+𝛽
+[
+𝛾
+𝛿
+;
+𝜀
+]
+=
+0
+with gαβ gives, using the fact that the metric tensor is covariantly constant, i.e. gαβ;γ = 0,
+𝑅
+𝛾
+𝛽
+𝛾
+𝛿
+;
+𝜀
++
+𝑅
+𝛾
+𝛽
+𝜀
+𝛾
+;
+𝛿
++
+𝑅
+𝛾
+𝛽
+𝛿
+𝜀
+;
+𝛾
+=
+0
+
+The antisymmetry of the Riemann tensor allows the second term in the above expression to be rewritten:
+
+𝑅
+𝛾
+𝛽
+𝛾
+𝛿
+;
+𝜀
+−
+𝑅
+𝛾
+𝛽
+𝛾
+𝜀
+;
+𝛿
++
+𝑅
+𝛾
+𝛽
+𝛿
+𝜀
+;
+𝛾
+=
+0
+which is equivalent to
+𝑅
+𝛽
+𝛿
+;
+𝜀
+−
+𝑅
+𝛽
+𝜀
+;
+𝛿
++
+𝑅
+𝛾
+𝛽
+𝛿
+𝜀
+;
+𝛾
+=
+0
+using the definition of the Ricci tensor.
+
+Next, contract again with the metric
+
+𝑔
+𝛽
+𝛿
+(
+𝑅
+𝛽
+𝛿
+;
+𝜀
+−
+𝑅
+𝛽
+𝜀
+;
+𝛿
++
+𝑅
+𝛾
+𝛽
+𝛿
+𝜀
+;
+𝛾
+)
+=
+0
+to get
+𝑅
+𝛿
+𝛿
+;
+𝜀
+−
+𝑅
+𝛿
+𝜀
+;
+𝛿
++
+𝑅
+𝛾
+𝛿
+𝛿
+𝜀
+;
+𝛾
+=
+0
+
+The definitions of the Ricci curvature tensor and the scalar curvature then show that
+
+𝑅
+;
+𝜀
+−
+2
+𝑅
+𝛾
+𝜀
+;
+𝛾
+=
+0
+which can be rewritten as
+(
+𝑅
+𝛾
+𝜀
+−
+1
+2
+𝑔
+𝛾
+𝜀
+𝑅
+)
+;
+𝛾
+=
+0
+
+A final contraction with gεδ gives
+
+(
+𝑅
+𝛾
+𝛿
+−
+1
+2
+𝑔
+𝛾
+𝛿
+𝑅
+)
+;
+𝛾
+=
+0
+which by the symmetry of the bracketed term and the definition of the Einstein tensor, gives, after relabelling the indices,
+𝐺
+𝛼
+𝛽
+;
+𝛽
+=
+0
+
+Using the EFE, this immediately gives,
+
+∇
+𝛽
+𝑇
+𝛼
+𝛽
+=
+𝑇
+𝛼
+𝛽
+;
+𝛽
+=
+0
+
+which expresses the local conservation of stress–energy. This conservation law is a physical requirement. With his field equations Einstein ensured that general relativity is consistent with this conservation condition.
+
+Nonlinearity[edit]
+
+The nonlinearity of the EFE distinguishes general relativity from many other fundamental physical theories. For example, Maxwell's equations of electromagnetism are linear in the electric and magnetic fields, and charge and current distributions (i.e. the sum of two solutions is also a solution); another example is Schrödinger's equation of quantum mechanics, which is linear in the wavefunction.
+
+The correspondence principle[edit]
+
+The EFE reduce to Newton's law of gravity by using both the weak-field approximation and the slow-motion approximation. In fact, the constant G appearing in the EFE is determined by making these two approximations.
+
+Derivation of Newton's law of gravity
+
+Newtonian gravitation can be written as the theory of a scalar field, Φ, which is the gravitational potential in joules per kilogram of the gravitational field g = −∇Φ, see Gauss's law for gravity
+
+∇
+2
+Φ
+(
+𝑥
+→
+,
+𝑡
+)
+=
+4
+𝜋
+𝐺
+𝜌
+(
+𝑥
+→
+,
+𝑡
+)
+where ρ is the mass density. The orbit of a free-falling particle satisfies
+𝑥
+→
+¨
+(
+𝑡
+)
+=
+𝑔
+→
+=
+−
+∇
+Φ
+(
+𝑥
+→
+(
+𝑡
+)
+,
+𝑡
+)
+.
+
+In tensor notation, these become
+
+Φ
+,
+𝑖
+𝑖
+	
+=
+4
+𝜋
+𝐺
+𝜌
+
+
+𝑑
+2
+𝑥
+𝑖
+𝑑
+𝑡
+2
+	
+=
+−
+Φ
+,
+𝑖
+.
+
+In general relativity, these equations are replaced by the Einstein field equations in the trace-reversed form
+
+𝑅
+𝜇
+𝜈
+=
+𝐾
+(
+𝑇
+𝜇
+𝜈
+−
+1
+2
+𝑇
+𝑔
+𝜇
+𝜈
+)
+for some constant, K, and the geodesic equation
+𝑑
+2
+𝑥
+𝛼
+𝑑
+𝜏
+2
+=
+−
+Γ
+𝛽
+𝛾
+𝛼
+𝑑
+𝑥
+𝛽
+𝑑
+𝜏
+𝑑
+𝑥
+𝛾
+𝑑
+𝜏
+.
+
+To see how the latter reduces to the former, we assume that the test particle's velocity is approximately zero
+
+𝑑
+𝑥
+𝛽
+𝑑
+𝜏
+≈
+(
+𝑑
+𝑡
+𝑑
+𝜏
+,
+0
+,
+0
+,
+0
+)
+and thus
+𝑑
+𝑑
+𝑡
+(
+𝑑
+𝑡
+𝑑
+𝜏
+)
+≈
+0
+and that the metric and its derivatives are approximately static and that the squares of deviations from the Minkowski metric are negligible. Applying these simplifying assumptions to the spatial components of the geodesic equation gives
+𝑑
+2
+𝑥
+𝑖
+𝑑
+𝑡
+2
+≈
+−
+Γ
+00
+𝑖
+where two factors of 
+dt
+/
+dτ
+ have been divided out. This will reduce to its Newtonian counterpart, provided
+Φ
+,
+𝑖
+≈
+Γ
+00
+𝑖
+=
+1
+2
+𝑔
+𝑖
+𝛼
+(
+𝑔
+𝛼
+0
+,
+0
++
+𝑔
+0
+𝛼
+,
+0
+−
+𝑔
+00
+,
+𝛼
+)
+.
+
+Our assumptions force α = i and the time (0) derivatives to be zero. So this simplifies to
+
+2
+Φ
+,
+𝑖
+≈
+𝑔
+𝑖
+𝑗
+(
+−
+𝑔
+00
+,
+𝑗
+)
+≈
+−
+𝑔
+00
+,
+𝑖
+which is satisfied by letting
+𝑔
+00
+≈
+−
+𝑐
+2
+−
+2
+Φ
+.
+
+Turning to the Einstein equations, we only need the time-time component
+
+𝑅
+00
+=
+𝐾
+(
+𝑇
+00
+−
+1
+2
+𝑇
+𝑔
+00
+)
+the low speed and static field assumptions imply that
+𝑇
+𝜇
+𝜈
+≈
+diag
+⁡
+(
+𝑇
+00
+,
+0
+,
+0
+,
+0
+)
+≈
+diag
+⁡
+(
+𝜌
+𝑐
+4
+,
+0
+,
+0
+,
+0
+)
+.
+
+So
+
+𝑇
+=
+𝑔
+𝛼
+𝛽
+𝑇
+𝛼
+𝛽
+≈
+𝑔
+00
+𝑇
+00
+≈
+−
+1
+𝑐
+2
+𝜌
+𝑐
+4
+=
+−
+𝜌
+𝑐
+2
+and thus
+𝐾
+(
+𝑇
+00
+−
+1
+2
+𝑇
+𝑔
+00
+)
+≈
+𝐾
+(
+𝜌
+𝑐
+4
+−
+1
+2
+(
+−
+𝜌
+𝑐
+2
+)
+(
+−
+𝑐
+2
+)
+)
+=
+1
+2
+𝐾
+𝜌
+𝑐
+4
+.
+
+From the definition of the Ricci tensor
+
+𝑅
+00
+=
+Γ
+00
+,
+𝜌
+𝜌
+−
+Γ
+𝜌
+0
+,
+0
+𝜌
++
+Γ
+𝜌
+𝜆
+𝜌
+Γ
+00
+𝜆
+−
+Γ
+0
+𝜆
+𝜌
+Γ
+𝜌
+0
+𝜆
+.
+
+Our simplifying assumptions make the squares of Γ disappear together with the time derivatives
+
+𝑅
+00
+≈
+Γ
+00
+,
+𝑖
+𝑖
+.
+
+Combining the above equations together
+
+Φ
+,
+𝑖
+𝑖
+≈
+Γ
+00
+,
+𝑖
+𝑖
+≈
+𝑅
+00
+=
+𝐾
+(
+𝑇
+00
+−
+1
+2
+𝑇
+𝑔
+00
+)
+≈
+1
+2
+𝐾
+𝜌
+𝑐
+4
+which reduces to the Newtonian field equation provided
+1
+2
+𝐾
+𝜌
+𝑐
+4
+=
+4
+𝜋
+𝐺
+𝜌
+which will occur if
+𝐾
+=
+8
+𝜋
+𝐺
+𝑐
+4
+.
+
+Vacuum field equations[edit]
+A Swiss commemorative coin from 1979, showing the vacuum field equations with zero cosmological constant (top).
+
+If the energy–momentum tensor Tμν is zero in the region under consideration, then the field equations are also referred to as the vacuum field equations. By setting Tμν = 0 in the trace-reversed field equations, the vacuum field equations, also known as 'Einstein vacuum equations' (EVE), can be written as
+
+𝑅
+𝜇
+𝜈
+=
+0
+.
+
+In the case of nonzero cosmological constant, the equations are
+
+𝑅
+𝜇
+𝜈
+=
+Λ
+𝐷
+2
+−
+1
+𝑔
+𝜇
+𝜈
+.
+
+The solutions to the vacuum field equations are called vacuum solutions. Flat Minkowski space is the simplest example of a vacuum solution. Nontrivial examples include the Schwarzschild solution and the Kerr solution.
+
+Manifolds with a vanishing Ricci tensor, Rμν = 0, are referred to as Ricci-flat manifolds and manifolds with a Ricci tensor proportional to the metric as Einstein manifolds.
+
+Einstein–Maxwell equations[edit]
+See also: Maxwell's equations in curved spacetime
+
+If the energy–momentum tensor Tμν is that of an electromagnetic field in free space, i.e. if the electromagnetic stress–energy tensor
+
+𝑇
+𝛼
+𝛽
+=
+−
+1
+𝜇
+0
+(
+𝐹
+𝛼
+𝜓
+𝐹
+𝜓
+𝛽
++
+1
+4
+𝑔
+𝛼
+𝛽
+𝐹
+𝜓
+𝜏
+𝐹
+𝜓
+𝜏
+)
+is used, then the Einstein field equations are called the Einstein–Maxwell equations (with cosmological constant Λ, taken to be zero in conventional relativity theory):
+𝐺
+𝛼
+𝛽
++
+Λ
+𝑔
+𝛼
+𝛽
+=
+𝜅
+𝜇
+0
+(
+𝐹
+𝛼
+𝜓
+𝐹
+𝜓
+𝛽
++
+1
+4
+𝑔
+𝛼
+𝛽
+𝐹
+𝜓
+𝜏
+𝐹
+𝜓
+𝜏
+)
+.
+
+Additionally, the covariant Maxwell equations are also applicable in free space:
+
+𝐹
+𝛼
+𝛽
+;
+𝛽
+	
+=
+0
+
+
+𝐹
+[
+𝛼
+𝛽
+;
+𝛾
+]
+	
+=
+1
+3
+(
+𝐹
+𝛼
+𝛽
+;
+𝛾
++
+𝐹
+𝛽
+𝛾
+;
+𝛼
++
+𝐹
+𝛾
+𝛼
+;
+𝛽
+)
+=
+1
+3
+(
+𝐹
+𝛼
+𝛽
+,
+𝛾
++
+𝐹
+𝛽
+𝛾
+,
+𝛼
++
+𝐹
+𝛾
+𝛼
+,
+𝛽
+)
+=
+0.
+where the semicolon represents a covariant derivative, and the brackets denote anti-symmetrization. The first equation asserts that the 4-divergence of the 2-form F is zero, and the second that its exterior derivative is zero. From the latter, it follows by the Poincaré lemma that in a coordinate chart it is possible to introduce an electromagnetic field potential Aα such that
+𝐹
+𝛼
+𝛽
+=
+𝐴
+𝛼
+;
+𝛽
+−
+𝐴
+𝛽
+;
+𝛼
+=
+𝐴
+𝛼
+,
+𝛽
+−
+𝐴
+𝛽
+,
+𝛼
+in which the comma denotes a partial derivative. This is often taken as equivalent to the covariant Maxwell equation from which it is derived.[20] However, there are global solutions of the equation that may lack a globally defined potential.[21]
+
+Solutions[edit]
+Main article: Solutions of the Einstein field equations
+
+The solutions of the Einstein field equations are metrics of spacetime. These metrics describe the structure of the spacetime including the inertial motion of objects in the spacetime. As the field equations are non-linear, they cannot always be completely solved (i.e. without making approximations). For example, there is no known complete solution for a spacetime with two massive bodies in it (which is a theoretical model of a binary star system, for example). However, approximations are usually made in these cases. These are commonly referred to as post-Newtonian approximations. Even so, there are several cases where the field equations have been solved completely, and those are called exact solutions.[9]
+
+The study of exact solutions of Einstein's field equations is one of the activities of cosmology. It leads to the prediction of black holes and to different models of evolution of the universe.
+
+One can also discover new solutions of the Einstein field equations via the method of orthonormal frames as pioneered by Ellis and MacCallum.[22] In this approach, the Einstein field equations are reduced to a set of coupled, nonlinear, ordinary differential equations. As discussed by Hsu and Wainwright,[23] self-similar solutions to the Einstein field equations are fixed points of the resulting dynamical system. New solutions have been discovered using these methods by LeBlanc[24] and Kohli and Haslam.[25]
+
+The linearized EFE[edit]
+Main article: Linearized gravity
+
+The nonlinearity of the EFE makes finding exact solutions difficult. One way of solving the field equations is to make an approximation, namely, that far from the source(s) of gravitating matter, the gravitational field is very weak and the spacetime approximates that of Minkowski space. The metric is then written as the sum of the Minkowski metric and a term representing the deviation of the true metric from the Minkowski metric, ignoring higher-power terms. This linearization procedure can be used to investigate the phenomena of gravitational radiation.
+
+Polynomial form[edit]
+
+Despite the EFE as written containing the inverse of the metric tensor, they can be arranged in a form that contains the metric tensor in polynomial form and without its inverse. First, the determinant of the metric in 4 dimensions can be written
+
+det
+(
+𝑔
+)
+=
+1
+24
+𝜀
+𝛼
+𝛽
+𝛾
+𝛿
+𝜀
+𝜅
+𝜆
+𝜇
+𝜈
+𝑔
+𝛼
+𝜅
+𝑔
+𝛽
+𝜆
+𝑔
+𝛾
+𝜇
+𝑔
+𝛿
+𝜈
+using the Levi-Civita symbol; and the inverse of the metric in 4 dimensions can be written as:
+𝑔
+𝛼
+𝜅
+=
+1
+6
+𝜀
+𝛼
+𝛽
+𝛾
+𝛿
+𝜀
+𝜅
+𝜆
+𝜇
+𝜈
+𝑔
+𝛽
+𝜆
+𝑔
+𝛾
+𝜇
+𝑔
+𝛿
+𝜈
+det
+(
+𝑔
+)
+.
+
+Substituting this expression of the inverse of the metric into the equations then multiplying both sides by a suitable power of det(g) to eliminate it from the denominator results in polynomial equations in the metric tensor and its first and second derivatives. The action from which the equations are derived can also be written in polynomial form by suitable redefinitions of the fields.[26]
+
+See also[edit]
+Conformastatic spacetimes
+Einstein–Hilbert action
+Equivalence principle
+Exact solutions in general relativity
+General relativity resources
+History of general relativity
+Hamilton–Jacobi–Einstein equation
+Mathematics of general relativity
+Numerical relativity
+Ricci calculus
+Notes[edit]
+^ 
+Jump up to:
+a b Einstein, Albert (1916). "The Foundation of the General Theory of Relativity". Annalen der Physik. 354 (7): 769. Bibcode:1916AnP...354..769E. doi:10.1002/andp.19163540702. Archived from the original (PDF) on 2012-02-06.
+^ Einstein, Albert (November 25, 1915). "Die Feldgleichungen der Gravitation". Sitzungsberichte der Preussischen Akademie der Wissenschaften zu Berlin: 844–847. Retrieved 2017-08-21.
+^ Misner, Thorne & Wheeler (1973), p. 916 [ch. 34].
+^ Carroll, Sean (2004). Spacetime and Geometry – An Introduction to General Relativity. Addison Wesley. pp. 151–159. ISBN 0-8053-8732-3.
+^ Grøn, Øyvind; Hervik, Sigbjorn (2007). Einstein's General Theory of Relativity: With Modern Applications in Cosmology (illustrated ed.). Springer Science & Business Media. p. 180. ISBN 978-0-387-69200-5.
+^ With the choice of the Einstein gravitational constant as given here, κ = 8πG/c4, the stress–energy tensor on the right side of the equation must be written with each component in units of energy density (i.e., energy per volume, equivalently pressure). In Einstein's original publication, the choice is κ = 8πG/c2, in which case the stress–energy tensor components have units of mass density.
+^ Adler, Ronald; Bazin, Maurice; Schiffer, Menahem (1975). Introduction to general relativity (2d ed.). New York: McGraw-Hill. ISBN 0-07-000423-4. OCLC 1046135.
+^ Weinberg, Steven (1993). Dreams of a Final Theory: the search for the fundamental laws of nature. Vintage Press. pp. 107, 233. ISBN 0-09-922391-0.
+^ 
+Jump up to:
+a b Stephani, Hans; Kramer, D.; MacCallum, M.; Hoenselaers, C.; Herlt, E. (2003). Exact Solutions of Einstein's Field Equations. Cambridge University Press. ISBN 0-521-46136-7.
+^ Rendall, Alan D. (2005). "Theorems on Existence and Global Dynamics for the Einstein Equations". Living Rev. Relativ. 8 (1). Article number: 6. arXiv:gr-qc/0505133. Bibcode:2005LRR.....8....6R. doi:10.12942/lrr-2005-6. PMC 5256071. PMID 28179868.
+^ Misner, Thorne & Wheeler (1973), p. 501ff.
+^ Weinberg (1972).
+^ Peebles, Phillip James Edwin (1980). The Large-scale Structure of the Universe. Princeton University Press. ISBN 0-691-08239-1.
+^ Efstathiou, G.; Sutherland, W. J.; Maddox, S. J. (1990). "The cosmological constant and cold dark matter". Nature. 348 (6303): 705. Bibcode:1990Natur.348..705E. doi:10.1038/348705a0. S2CID 12988317.
+^ Collins, P. D. B.; Martin, A. D.; Squires, E. J. (1989). Particle Physics and Cosmology. New York: Wiley. ISBN 0-471-60088-1.
+^ Peacock (1999).
+^ Gamow, George (April 28, 1970). My World Line : An Informal Autobiography. Viking Adult. ISBN 0-670-50376-2. Retrieved 2007-03-14.
+^ Wahl, Nicolle (2005-11-22). "Was Einstein's 'biggest blunder' a stellar success?". News@UofT. University of Toronto. Archived from the original on 2007-03-07.
+^ Turner, Michael S. (May 2001). "Making Sense of the New Cosmology". Int. J. Mod. Phys. A. 17 (S1): 180–196. arXiv:astro-ph/0202008. Bibcode:2002IJMPA..17S.180T. doi:10.1142/S0217751X02013113. S2CID 16669258.
+^ Brown, Harvey (2005). Physical Relativity. Oxford University Press. p. 164. ISBN 978-0-19-927583-0.
+^ Trautman, Andrzej (1977). "Solutions of the Maxwell and Yang–Mills equations associated with Hopf fibrings". International Journal of Theoretical Physics. 16 (9): 561–565. Bibcode:1977IJTP...16..561T. doi:10.1007/BF01811088. S2CID 123364248..
+^ Ellis, G. F. R.; MacCallum, M. (1969). "A class of homogeneous cosmological models". Comm. Math. Phys. 12 (2): 108–141. Bibcode:1969CMaPh..12..108E. doi:10.1007/BF01645908. S2CID 122577276.
+^ Hsu, L.; Wainwright, J (1986). "Self-similar spatially homogeneous cosmologies: orthogonal perfect fluid and vacuum solutions". Class. Quantum Grav. 3 (6): 1105–1124. Bibcode:1986CQGra...3.1105H. doi:10.1088/0264-9381/3/6/011. S2CID 250907312.
+^ LeBlanc, V. G. (1997). "Asymptotic states of magnetic Bianchi I cosmologies". Class. Quantum Grav. 14 (8): 2281. Bibcode:1997CQGra..14.2281L. doi:10.1088/0264-9381/14/8/025. S2CID 250876974.
+^ Kohli, Ikjyot Singh; Haslam, Michael C. (2013). "Dynamical systems approach to a Bianchi type I viscous magnetohydrodynamic model". Phys. Rev. D. 88 (6): 063518. arXiv:1304.8042. Bibcode:2013PhRvD..88f3518K. doi:10.1103/physrevd.88.063518. S2CID 119178273.
+^ Katanaev, M. O. (2006). "Polynomial form of the Hilbert–Einstein action". Gen. Rel. Grav. 38 (8): 1233–1240. arXiv:gr-qc/0507026. Bibcode:2006GReGr..38.1233K. doi:10.1007/s10714-006-0310-5. S2CID 6263993.
+References[edit]
+
+See General relativity resources.
+
+Misner, Charles W.; Thorne, Kip S.; Wheeler, John Archibald (1973). Gravitation. San Francisco: W. H. Freeman. ISBN 978-0-7167-0344-0.
+Weinberg, Steven (1972). Gravitation and Cosmology. John Wiley & Sons. ISBN 0-471-92567-5.
+Peacock, John A. (1999). Cosmological Physics. Cambridge University Press. ISBN 978-0521410724.
+External links[edit]
+Wikibooks has a book on the topic of: General Relativity
+Wikiversity has learning resources about General Relativity
+"Einstein equations", Encyclopedia of Mathematics, EMS Press, 2001 [1994]
+Caltech Tutorial on Relativity — A simple introduction to Einstein's Field Equations.
+The Meaning of Einstein's Equation — An explanation of Einstein's field equation, its derivation, and some of its consequences
+Video Lecture on Einstein's Field Equations by MIT Physics Professor Edmund Bertschinger.
+Arch and scaffold: How Einstein found his field equations Physics Today November 2015, History of the Development of the Field Equations
+External images[edit]
+The Einstein field equation on the wall of the Museum Boerhaave in downtown Leiden
+Suzanne Imber, "The impact of general relativity on the Atacama Desert", Einstein field equation on the side of a train in Bolivia.
+show
+vte
+Albert Einstein
+show
+vte
+Relativity
+Authority control databases: National 	
+FranceBnF dataGermanyIsraelUnited States
+Categories: Albert EinsteinEquations of physicsGeneral relativityPartial differential equations

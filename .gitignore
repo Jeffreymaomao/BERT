@@ -1,0 +1,9 @@
+model.safetensors
+model.ckpt
+pytorch_model.bin
+
+*.safetensors
+*.ckpt
+*.bin
+
+dat/
