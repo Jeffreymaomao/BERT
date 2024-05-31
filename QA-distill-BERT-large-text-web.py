@@ -1,15 +1,8 @@
-import os
 import re
 import torch
+import requests
+from bs4 import BeautifulSoup
 from transformers import AutoTokenizer, DistilBertForQuestionAnswering
-
-"""
-How to handle long document ?
-https://arxiv.org/abs/2211.02519
-
-What is Einstein field eqution?
-
-"""
 
 MODEL_SAVE_PATH = "./model-QA-Distill-BERT/"
 model = DistilBertForQuestionAnswering.from_pretrained(MODEL_SAVE_PATH)
@@ -66,8 +59,7 @@ def separate_context_sliding_window(context, max_length=400, stride=200):
     return clean_paragraphs
 
 
-def answer_question(context, question):
-    paragraphs = separate_context_sliding_window(context)
+def answer_question(paragraphs, question):
 
     best_answer = None
     best_score = float('-inf')
@@ -110,25 +102,34 @@ def answer_question(context, question):
 
     return best_answer
 
+def fetch_document_from_url(url):
+    response = requests.get(url)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, 'html.parser')
+    # Extract all text within the body tag
+    return soup.body.get_text(separator=' ', strip=True)
 
 def main():
-    path = "doc"
-    docs = os.listdir(path)
-    print("========= ALL FILES ========")
-    for i, file in enumerate(docs):
-        print(f"{COLORS.OKGREEN}{i}. {file}{COLORS.ENDC}")
-    print("============================\n")
+    while True:
+        doc_source = input(COLORS.OKBLUE+"Enter a file path or URL: "+COLORS.ENDC)
+        if(doc_source==''): break
 
-    doc_index = input(COLORS.OKBLUE+"Choose one of file number: "+COLORS.ENDC)
-    doc_index = int(doc_index.replace(".",""))
-    doc_content = open(f"{path}/{docs[doc_index]}", "r").read()
+        doc_content = ""
+        if doc_source.startswith("http://") or doc_source.startswith("https://"):
+            try:
+                doc_content = fetch_document_from_url(doc_source)
+                break
+            except requests.RequestException as e:
+                print(COLORS.FAIL+"Failed to fetch document from URL:"+COLORS.ENDC, e)
+                continue
 
+    paragraphs = separate_context_sliding_window(doc_content)
 
     while True:
         question = input(COLORS.OKGREEN+"Input some question: "+COLORS.ENDC)
         if(question==''): break
         
-        answer = answer_question(doc_content, question)
+        answer = answer_question(paragraphs, question)
         
         print(COLORS.FAIL+"Answer: " +answer+COLORS.ENDC)
 

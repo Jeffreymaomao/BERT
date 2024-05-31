@@ -18,13 +18,13 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # 加载保存的模型和 tokenizer
-model_save_path = "./model-0528/"
+model_save_path = "./model-BERT-full-paragraph/"
 model = BertForQuestionAnswering.from_pretrained(model_save_path)
 tokenizer = AutoTokenizer.from_pretrained(model_save_path)
 
 # 定义回答问题的函数
 def answer_question(context, question):
-    inputs = tokenizer.encode_plus(question, context, return_tensors="pt")
+    inputs = tokenizer.encode_plus(context, question, return_tensors="pt")
     input_ids = inputs["input_ids"].tolist()[0]
 
     with torch.no_grad():

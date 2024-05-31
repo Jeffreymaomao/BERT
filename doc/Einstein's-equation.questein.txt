@@ -1,0 +1,40 @@
+
+What are the Einstein field equations and what do they describe?
+
+Can you explain the components of the Einstein field equations, specifically 𝐺𝜇𝜈, 𝑔𝜇𝜈, 𝑇𝜇𝜈, Λ, and 𝜅?
+
+How do the Einstein field equations relate the geometry of spacetime to the distribution of matter and energy?
+
+What is the significance of the cosmological constant Λ in the Einstein field equations?
+
+How do the Einstein field equations reduce to Newton's law of gravitation in the weak-field limit?
+
+What are exact solutions of the Einstein field equations, and can you give examples?
+
+What is the role of the Ricci curvature tensor and scalar curvature in the Einstein field equations?
+
+How does the Einstein tensor 𝐺𝜇𝜈 relate to the Ricci tensor 𝑅𝜇𝜈 and the scalar curvature 𝑅?
+
+What are the implications of the Einstein field equations being nonlinear?
+
+How do the Einstein field equations change when considering a vacuum solution (when 𝑇𝜇𝜈 = 0)?
+
+What are the Bianchi identities and how do they reduce the number of independent equations in the Einstein field equations?
+
+How is the cosmological constant Λ associated with vacuum energy in the Einstein field equations?
+
+What are the Einstein-Maxwell equations and in what context are they used?
+
+Can you describe the concept of geodesics and their relationship with the Einstein field equations?
+
+How are the Einstein field equations formulated in n dimensions, and what are Einstein manifolds?
+
+What is the trace-reversed form of the Einstein field equations and when is it useful?
+
+How did Einstein's view on the cosmological constant change over time, and why?
+
+What is the significance of the conservation of energy and momentum in general relativity?
+
+How do the linearized Einstein field equations help in studying gravitational waves?
+
+What are some methods used to discover new solutions to the Einstein field equations?

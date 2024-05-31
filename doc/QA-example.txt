@@ -4,7 +4,7 @@ When was Albert Einstein born?
 Where was Albert Einstein born?
 What theory is Albert Einstein known for?
 
-
+---
 
 The Amazon rainforest is the largest tropical rainforest in the world, located in South America. It spans eight countries, with the majority of it located in Brazil. This rainforest is often referred to as the "lungs of the Earth" because it produces approximately 20% of the world's oxygen. The Amazon rainforest is also home to a rich diversity of wildlife, with many species of plants and animals found nowhere else on Earth.
 
@@ -12,10 +12,56 @@ In which countries is the Amazon rainforest located?
 Why is the Amazon rainforest called the “lungs of the Earth”?
 What percentage of the world’s oxygen does the Amazon rainforest produce?
 
-
+---
 
 The Taj Mahal is a white marble mausoleum located in Agra, India, built by the Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal. The Taj Mahal is considered a jewel of Islamic art in India and was designated a UNESCO World Heritage Site in 1983. It is renowned for its stunning architectural design and intricate decorations, attracting millions of visitors each year.
 
 Who built the Taj Mahal and for whom?
 Where is the Taj Mahal located?
 In what year was the Taj Mahal designated a UNESCO World Heritage Site?
+
+
+---
+
+Marie Curie was born on November 7, 1867, in Warsaw, Poland. She was a physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, and she is the only person to win Nobel Prizes in two different scientific fields: Physics and Chemistry. Her work led to the development of X-ray machines. Curie died on July 4, 1934, from aplastic anemia caused by prolonged exposure to radiation.
+
+When was Marie Curie born?
+What did Marie Curie research?
+How many Nobel Prizes did Marie Curie win?
+What did Marie Curie's work lead to?
+When did Marie Curie die?
+
+---
+
+The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe. Several walls were being built as early as the 7th century BC; these were later joined together and made bigger and stronger, and are collectively referred to as the Great Wall. Especially famous is the wall built between 220–206 BC by the first Emperor of China, Qin Shi Huang. Little of that wall remains. The majority of the existing wall was reconstructed during the Ming Dynasty (1368–1644).
+
+What is the Great Wall of China made of?
+When were the first walls of the Great Wall of China built?
+Who was the first Emperor of China?
+During which dynasty was the majority of the existing Great Wall reconstructed?
+
+---
+
+The Amazon Rainforest, also known as the Amazon Jungle, is a tropical rainforest in South America. It is the largest rainforest in the world, covering an area of 5.5 million square kilometers. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname, and French Guiana. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.
+
+What is another name for the Amazon Rainforest?
+How large is the Amazon Rainforest?
+Which country contains the majority of the Amazon Rainforest?
+How many individual trees are estimated to be in the Amazon Rainforest?
+
+---
+
+Leonardo da Vinci was an Italian polymath of the Renaissance who was active as a painter, draftsman, engineer, scientist, theorist, sculptor, and architect. While his fame initially rested on his achievements as a painter, he also became known for his notebooks, in which he made drawings and notes on science and invention. His most famous works include the Mona Lisa and The Last Supper. Leonardo is widely considered one of the most diversely talented individuals ever to have lived. He was born on April 15, 1452, in Vinci, Italy, and died on May 2, 1519, in Amboise, France.
+
+What were Leonardo da Vinci's professions?
+What are Leonardo da Vinci's most famous works?
+When was Leonardo da Vinci born?
+Where did Leonardo da Vinci die?
+
+---
+
+Isaac Newton was an English mathematician, physicist, astronomer, and author who is widely recognized as one of the most influential scientists of all time. He was born on January 4, 1643, in Woolsthorpe, England. Newton formulated the laws of motion and universal gravitation, which laid the foundations for classical mechanics. His book "Philosophiæ Naturalis Principia Mathematica," commonly known as the "Principia," is considered one of the most important works in the history of science.
+
+Where was Isaac Newton born?
+What did Isaac Newton formulate?
+What is the commonly known name of Newton's book "Philosophiæ Naturalis Principia Mathematica"?
